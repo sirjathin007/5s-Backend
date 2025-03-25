@@ -13,7 +13,7 @@ app.use(cors());
 app.use('/uploads', express.static('uploads'));
 
 
-mongoose.connect('mongodb+srv://root:UbjjsQcmt6sK9K9@cluster0.xrexetn.mongodb.net/5s', {
+mongoose.connect('mongodb+srv://jathinaggarwal007:root6969@5spspl.v3s4p.mongodb.net/5s', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected')).catch(err => console.log(err));
